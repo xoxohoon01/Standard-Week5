@@ -5,5 +5,5 @@ using UnityEngine;
 public interface IState
 {
     // 리턴값이 후딜레이
-    public float Fire();
+    public float Fire(Player player);
 }
